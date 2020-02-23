@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TouhouTrekServer/1.0.0": {
+        "dependencies": {
+          "LiteNetLib": "1.0.0.0",
+          "TouhouTrek.Server.Shared": "0.0.0.0"
+        },
+        "runtime": {
+          "TouhouTrekServer.dll": {}
+        }
+      },
+      "LiteNetLib/1.0.0.0": {
+        "runtime": {
+          "LiteNetLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TouhouTrek.Server.Shared/0.0.0.0": {
+        "runtime": {
+          "TouhouTrek.Server.Shared.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TouhouTrekServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiteNetLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TouhouTrek.Server.Shared/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
